@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+  egungorjustice:
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    image: hmctsprod.azurecr.io/snl/egungorjustice
+    ports:
+      - $SERVER_PORT:$SERVER_PORT
