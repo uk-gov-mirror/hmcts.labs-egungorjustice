@@ -1,4 +1,4 @@
-package uk.gov.hmcts.snl.egungorjustice.controllers;
+package uk.gov.hmcts.labs.egungorjustice.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -27,6 +27,6 @@ public class RootController {
     @RequestMapping(value = "/", method = GET, produces = TEXT_PLAIN_VALUE)
 
     public ResponseEntity<String> welcome() {
-        return ok("Welcome to snl-egungorjustice application");
+        return ok("Welcome to labs-egungorjustice application");
     }
 }

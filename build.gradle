@@ -127,8 +127,8 @@ project.tasks['sonarqube'].dependsOn test, integration, jacocoTestReport
 
 sonarqube {
   properties {
-    property "sonar.projectName", "HMCTS :: snl-egungorjustice"
-    property "sonar.projectKey", "com.github.hmcts:snl-egungorjustice"
+    property "sonar.projectName", "HMCTS :: labs-egungorjustice"
+    property "sonar.projectKey", "com.github.hmcts:labs-egungorjustice"
     property "sonar.exclusions", ["**/config/**", "**/controllers/**"]
   }
 }
@@ -215,11 +215,11 @@ dependencies {
   }
 }
 
-mainClassName = 'uk.gov.hmcts.snl.egungorjustice.Application'
+mainClassName = 'uk.gov.hmcts.labs.egungorjustice.Application'
 
 bootJar {
   getArchiveFileName().set(provider {
-    'snl-egungorjustice.jar'
+    'labs-egungorjustice.jar'
   })
 
   manifest {

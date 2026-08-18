@@ -12,15 +12,15 @@ management:
         include: health, info
 
 springdoc:
-  packagesToScan: uk.gov.hmcts.snl.egungorjustice.controllers
+  packagesToScan: uk.gov.hmcts.labs.egungorjustice.controllers
   writer-with-order-by-keys: true
 
 #If you use a database then uncomment below lines and update db properties accordingly
 spring:
   config:
-    import: "optional:configtree:/mnt/secrets/snl/"
+    import: "optional:configtree:/mnt/secrets/labs/"
   application:
-    name: snl-egungorjustice
+    name: labs-egungorjustice
 #  datasource:
 #    driver-class-name: org.postgresql.Driver
 #    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}${DB_OPTIONS:}

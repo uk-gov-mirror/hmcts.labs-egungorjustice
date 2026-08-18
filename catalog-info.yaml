@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "snl-egungorjustice"
+  name: "labs-egungorjustice"
   description: Deploying a Java application
   annotations:
     # This must match folder-name/job-name in Jenkins.
-    jenkins.io/job-full-name: cft:HMCTS_snl/labs-egungorjustice
+    jenkins.io/job-full-name: cft:HMCTS_labs/labs-egungorjustice
     github.com/project-slug: 'hmcts/labs-egungorjustice'
   tags:
     - java
@@ -15,6 +15,6 @@ metadata:
       icon: chat
 spec:
   type: service
-  system: snl
+  system: labs
   lifecycle: experimental
   owner: group:default/cjs_common_platform
