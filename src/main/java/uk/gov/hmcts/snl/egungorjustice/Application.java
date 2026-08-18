@@ -1,4 +1,4 @@
-package uk.gov.hmcts.snl.egungorjustice;
+package uk.gov.hmcts.labs.egungorjustice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

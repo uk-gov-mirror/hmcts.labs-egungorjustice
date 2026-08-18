@@ -1,7 +1,7 @@
 {
-  "connectionString": "${file:/mnt/secrets/snl/app-insights-connection-string}",
+  "connectionString": "${file:/mnt/secrets/labs/app-insights-connection-string}",
   "role": {
-    "name": "snl-egungorjustice"
+    "name": "labs-egungorjustice"
   },
   "preview": {
     "sampling": {

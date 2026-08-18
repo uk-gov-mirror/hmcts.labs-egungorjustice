@@ -1,4 +1,4 @@
-package uk.gov.hmcts.snl.egungorjustice.config;
+package uk.gov.hmcts.labs.egungorjustice.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -13,13 +13,13 @@ public class OpenAPIConfiguration {
     @Bean
     public OpenAPI openAPI() {
         return new OpenAPI()
-            .info(new Info().title("snl-egungorjustice")
-                      .description("snl-egungorjustice")
+            .info(new Info().title("labs-egungorjustice")
+                      .description("labs-egungorjustice")
                       .version("v0.0.1")
                       .license(new License().name("MIT").url("https://opensource.org/licenses/MIT")))
             .externalDocs(new ExternalDocumentation()
                               .description("README")
-                              .url("https://github.com/hmcts/snl-egungorjustice"));
+                              .url("https://github.com/hmcts/labs-egungorjustice"));
     }
 
 }

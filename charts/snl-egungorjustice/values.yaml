@@ -1,6 +1,6 @@
 java:
   applicationPort: 8080
-  image: 'hmctsprod.azurecr.io/snl/egungorjustice:latest'
-  ingressHost: snl-egungorjustice-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
-  aadIdentityName: snl
+  image: 'hmctsprod.azurecr.io/labs/egungorjustice:latest'
+  ingressHost: labs-egungorjustice-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
+  aadIdentityName: labs
   environment:

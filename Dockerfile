@@ -6,7 +6,7 @@ ARG PLATFORM=""
 FROM hmctsprod.azurecr.io/base/java${PLATFORM}:21-distroless
 
 COPY lib/applicationinsights.json /opt/app/
-COPY build/libs/snl-egungorjustice.jar /opt/app/
+COPY build/libs/labs-egungorjustice.jar /opt/app/
 
 EXPOSE 8080
-CMD [ "snl-egungorjustice.jar" ]
+CMD [ "labs-egungorjustice.jar" ]

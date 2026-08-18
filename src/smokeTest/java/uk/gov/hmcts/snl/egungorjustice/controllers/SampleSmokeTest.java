@@ -1,4 +1,4 @@
-package uk.gov.hmcts.snl.egungorjustice.controllers;
+package uk.gov.hmcts.labs.egungorjustice.controllers;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
